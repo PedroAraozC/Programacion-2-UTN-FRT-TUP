@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Permanent+Marker&display=swap');
+
+html,
+body {
+    font-family: 'Libre Baskerville', serif;
+    max-height: 100vh;
+    background-color: rgba(52, 30, 65, 0.589);
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+/* p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+} */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    margin: auto;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.tarjeta{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 25px;
+    padding: 2%;
+    background-image: linear-gradient(to right, rgb(93, 12, 170), rgb(202, 140, 243));
+}
+
+.tarjetaDescripcion{
+    box-sizing: border-box;
+    
+}
+.tarjetaTitulo{
+    font-size: 250%;
+    margin: 10px;
+}
+
+.mainFooter {
+    width: 100%;
+    min-height: 7vh;
+    max-height: 10vh;
+}
+
+.mainFooter p {
+    display: flex;
+    justify-content: center;
+}
+
+.mainHeader {
+    min-height: 80vh;
+    max-height: 80vh;
+    display: flex;
+    padding-left: 10%;
+
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 10vh;
+    max-height: 10vh;
+    align-items: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar ul {
+    margin-right: 30px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.colIndex{
+    display: flex;
+}
+.sitoDescripcion{
+    margin-top: 10%;
+    padding-left:5%;
+    padding-right: 5%;
+}
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    cursor: pointer;
+    font-weight: bolt;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+.btn-light{
+    background: rgb(136, 76, 170);
+    color:rgb(202, 140, 243);
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.btn-light:hover{
+    background:rgb(93, 12, 170);
+    color:#fff
+}
