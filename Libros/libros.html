@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libros.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Libros</title>
+</head>
+
+<header>
+
+    <nav class="navbar">
+        <h1 class="logo"> <a href="/Index/index.html"> MI BIBLIOTECA</a></h1>
+
+        <Ul>
+            <li><a href="/Libros/libros.html">Libros</a></li>
+            <li><a href="/Alumno/alumno.html">Alumnos</a></li>
+            <li><a href="/Alquiler/aliquiler.html">Alquiler</a></li>
+        </Ul>
+    </nav>
+
+</header>
+
+<body>
+
+    <div class="tarjeta">
+        <h1>Carga de libros</h1>
+
+        <label>Titulo: <br>
+            <input type="text" id="titulo" placeholder="Ej: Don Quijote" />
+        </label>
+        <br><br>
+
+        <label>Autor: <br>
+            <input type="text" id="autor" placeholder="Ej: Miguel de Cervantes" />
+        </label>
+        <br><br>
+
+        <button id="agregar" onclick="guardar();">Guardar</button>
+        <button id="actualizar" onclick="actualizar()" ;>Actualizar</button>
+
+    </div>
+
+    <div class="lista" id="lista">
+
+    </div>
+</body>
+<footer class="mainFooter">
+    <p>@Mi_biblioteca</p>
+</footer>
+
+</html>
