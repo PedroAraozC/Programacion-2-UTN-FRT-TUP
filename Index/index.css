@@ -4,12 +4,13 @@ html,
 body {
     font-family: 'Libre Baskerville', serif;
     max-height: 100vh;
+    margin: 0;
     background-color: rgba(52, 30, 65, 0.589);
 }
-
+/* 
 h2 {
     font-size: 2.2rem;
-}
+} */
 
 /* p {
     font-size: 1rem;
@@ -20,6 +21,9 @@ h2 {
 a {
     text-decoration: none;
     color: black;
+}
+a:hover{
+    box-shadow:  0 2px rgba(0, 0, 0, 0.4)
 }
 
 .container {
@@ -33,7 +37,9 @@ a {
     margin-bottom: 10%;
     border-radius: 25px;
     padding: 2%;
-    background-image: linear-gradient(to right, rgb(93, 12, 170), rgb(202, 140, 243));
+    border: solid 1px;
+    box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-image: transparent;
 }
 
 .tarjetaDescripcion{
@@ -46,9 +52,11 @@ a {
 }
 
 .mainFooter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     width: 100%;
-    min-height: 7vh;
-    max-height: 10vh;
+    height: 10vh;
 }
 
 .mainFooter p {
@@ -110,6 +118,7 @@ a {
     text-align: center;
     margin-top: 20px;
     border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .btn-light:hover{
     background:rgb(93, 12, 170);

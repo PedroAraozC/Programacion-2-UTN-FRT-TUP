@@ -13,6 +13,9 @@ a {
     text-decoration: none;
     color: black;
 }
+a:hover{
+    box-shadow:  0 2px rgba(0, 0, 0, 0.4)
+}
 
 .navbar {
     display: flex;
