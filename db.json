@@ -1,57 +1,69 @@
 {
-    "libro": [
-      {
-        "titulo": "Tarzan",
-        "autor": "William",
-        "alquilado": false,
-        "id": 1
-      },
-      {
-        "titulo": "Harry Potter",
-        "autor": "J.K. Rowling",
-        "alquilado": false,
-        "id": 2
-      },
-      {
-        "titulo": "Cronicas de una muerte anunciada",
-        "autor": "Truma Capote",
-        "alquilado": true,
-        "id": 3
-      }
-    ],
-    "alumno": [
-      {
-        "nomyape": "Lucas Prado",
-        "dni": "45274127",
-        "direccion": "Matienzo 322",
-        "localidad": "Alderetes",
-        "deuda": false,
-        "id": 1
-      },
-      {
-        "nomyape": "Walter Navarro",
-        "dni": "452719284",
-        "direccion": "Tucuman",
-        "localidad": "Alderetes",
-        "deuda": false,
-        "id": 2
-      },
-      {
-        "nomyape": "Pedro Araoz",
-        "dni": "41061708",
-        "direccion": "Mexico 545",
-        "localidad": "SMT",
-        "deuda": true,
-        "id": 3
-      }
-    ],
-    "prestamo": [
-      {
-        "Fentrega": "2022-11-06",
-        "Fdev": "2022-12-04",
-        "alumnoid": "3",
-        "libroid": "3",
-        "id": 1
-      }
-    ]
-  }
+  "libro": [
+    {
+      "titulo": "Tarzan",
+      "autor": "William",
+      "alquilado": false,
+      "id": 1
+    },
+    {
+      "titulo": "Harry Potter",
+      "autor": "J.K. Rowling",
+      "alquilado": false,
+      "id": 2
+    },
+    {
+      "titulo": "Cronicas de una muerte anunciada",
+      "autor": "Truma Capote",
+      "alquilado": true,
+      "id": 3
+    },
+    {
+      "titulo": "asd",
+      "autor": "asd",
+      "alquilado": false,
+      "id": 4
+    },
+    {
+      "titulo": "mondongo",
+      "autor": "tu vieja",
+      "alquilado": false,
+      "id": 5
+    }
+  ],
+  "alumno": [
+    {
+      "nomyape": "Lucas Prado",
+      "dni": "45274127",
+      "direccion": "Matienzo 322",
+      "localidad": "Alderetes",
+      "deuda": false,
+      "id": 1
+    },
+    {
+      "nomyape": "Walter Navarro",
+      "dni": "452719284",
+      "direccion": "Tucuman",
+      "localidad": "Alderetes",
+      "deuda": false,
+      "id": 2
+    },
+    {
+      "nomyape": "Pedro Araoz",
+      "dni": "41061708",
+      "direccion": "Mexico 545",
+      "localidad": "SMT",
+      "deuda": true,
+      "id": 3
+    }
+  ],
+  "prestamo": [
+    {
+      "Fentrega": "2022-11-06",
+      "Fdev": "2022-12-04",
+      "alumnoid": "3",
+      "libroid": "3",
+      "id": 1
+    }
+  ]
+}
